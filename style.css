@@ -70,8 +70,9 @@
 .qw{
   display:inline-block;
 }
-.fombut{
-  width: 20%;
+#form-button{
+  width: 35%;
+  white-space: normal;
 }
 #gxf{
   --bs-gutter-x: 20rem;

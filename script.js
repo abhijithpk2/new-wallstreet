@@ -1,16 +1,16 @@
 //header part
-    window.onscroll = function() {
+   /* window.onscroll = function() {
       if (document.documentElement.scrollTop>50){
-        document.getElementById("headerq").style.height="70px";
-        document.getElementById("headerq").style.fontSize="15px";
-        document.getElementById("imghq").style.width="80px";
+        document.getElementById("header").style.height="70px";
+        document.getElementById("header").style.fontSize="15px";
+        document.getElementById("imgh").style.width="80px";
       }
       else{
-        document.getElementById("headerq").style.height="90px";
-        document.getElementById("headerq").style.fontSize="16px";
-        document.getElementById("imghq").style.width="112px";
+        document.getElementById("header").style.height="90px";
+        document.getElementById("header").style.fontSize="16px";
+        document.getElementById("imgh").style.width="112px";
       }
-    }
+    }*/
 
 //form particles
     $(document).ready(function(){
@@ -37,7 +37,7 @@
     })    
 
 //Get the button
-var mybutton = document.getElementById("myBtn");
+/*var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 50px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
